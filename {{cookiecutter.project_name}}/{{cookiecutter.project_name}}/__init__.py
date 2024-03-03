@@ -18,3 +18,5 @@ handler.setFormatter(formatter)
 logger = logging.getLogger("{{cookiecutter.project_name}}")
 logger.setLevel(logging.INFO)
 logger.addHandler(handler)
+
+print("Changes to template")
